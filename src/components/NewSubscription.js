@@ -72,7 +72,7 @@ class Subscriptions extends Component {
                 loading: true,
             })
             console.log(this.state)
-            fetch("http://localhost:4000/subscriptions/new", {
+            fetch("https://itqan-task-server.herokuapp.com/subscriptions/new", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

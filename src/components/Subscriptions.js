@@ -25,7 +25,7 @@ class NewSubscription extends Component {
             alertErr: false,
             loading: true
         })
-        fetch(`http://localhost:4000/subscriptions/${this.state.email}`)
+        fetch(`https://itqan-task-server.herokuapp.com/subscriptions/${this.state.email}`)
         .then(response => response.json())
         .then(data => {
             this.setState({
