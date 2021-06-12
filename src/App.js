@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 	return (
-		<div className="container pt-5">
+		<div className="container mt-5 p-2 cont-all">
 			<Subscriptions />
 			<br/><br/><br/>
 			<NewSubscription />

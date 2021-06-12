@@ -15,6 +15,11 @@ tbody, td, tfoot, th, thead, tr {
   text-align: center;
 }
 
+.cont-all {
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
 .required-indicator {
   color: #f00;
   display: inline-block;
